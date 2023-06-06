@@ -1,0 +1,43 @@
+Types of variables:
+ depends on the place and usage variables can be divided into three types;
+1.Local variables
+2.Instance variables
+3.Static variables
+
+1.Local Variables: The variables that are created inside any method or block or constructor.
+*When control comes out of block or method or constructor the local variables will be destroyed.
+*When we using local variables we need to initialize the variables with some value.
+*Local variables can't be defined with static keyword
+*Local variable will be stored inside the "stock area"
+*for temporary purpose of execution of methods we can use local variables
+
+2.Instance variables:Instance variable have seperate  values for object to object
+*It can be declared outside of any method or block or constructor but within the class
+*seperate copy of variables will be created as part os the object inside the heap memory
+*JVM will provide default values
+*Instance variables stored in the heap memory
+
+3.Static variables:Static variable have similar  values for object to object
+*It can be declared outside of any method or block or constructor but within the class
+*only one copy of variables will be created as part os the object inside the heap memory
+*JVM will provide default values
+*Static variables stored in the "method area/class area".
+
+Types of Methods:
+*Mutator methods/setter methods/setters:Methods which are used to set/modify the data of objects is called setters.
+*Accessor methods/getter methods/getters:Methods which are used to get/access data fom objects is called getters.
+
+Method Overloading:
+  In java,two or more methods have same name but they differ in parameters(no.of parameters,datatype of parameters)
+these methods are called overloaded methods and this feature is called as "Method overloading".
+Method overloading can be achieved by either:
+*changing the number of parameters or
+*changing the datatype of parameters
+ If we only change the return type,then it cannot be called as method overloading.
+
+Constructors:
+*The purpose of constructor is to create the objects of the class and initialize values for the Instance variables.
+*Constructor is similar to method,but the difference between constructors and methods are;
+ 1.constructor name and class name must be match where as in methods we can use any name,
+ 2.constructor don't return any value where as method return some type of value.
+
